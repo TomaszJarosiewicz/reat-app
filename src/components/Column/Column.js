@@ -24,8 +24,8 @@ class Column extends React.Component {
         {
           key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
           title,
-        }
-      ]
+        },
+      ],
     }));
   }
 
@@ -43,15 +43,15 @@ class Column extends React.Component {
           ))}
         </div>
         <div className={styles.creator}>
-          <Creator text={settings.columnCreatorText} action={title => this.addCard(title)}/>
+          <Creator text={settings.columnCreatorText} action={title => this.addCard(title)} />
         </div>
       </section>
-    )
+    );
   }
 }
 
 Column.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string,
 };
 
 export default Column;
