@@ -9,12 +9,12 @@ class Card extends React.Component {
       <section className={styles.component}>
         <h3>{this.props.title}</h3>
       </section>
-      )
-    }
+    );
   }
+}
 
 Card.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
 };
 
 export default Card;
