@@ -7,7 +7,6 @@ import Icon from '../Icon/Icon';
 import styles from './Column.scss';
 
 class Column extends React.Component {
-
   static propTypes = {
     title: PropTypes.node.isRequired,
     cards: PropTypes.array.isRequired,
