@@ -11,11 +11,10 @@ class Header extends React.Component {
       <header className={styles.component}>
         <Container>
           <div className={styles.wrapper}>
-            <Link to='/' className={styles.logo}>
-              <Icon name='dog' />
-              <NavLink exact to='/' activeClassName='active'>Home</NavLink>
-              <NavLink exact to='/info' activeClassName='active'>Info</NavLink>
-            </Link>
+            <Link to='/' className={styles.logo}></Link>
+            <Icon name='dog' />
+            <NavLink exact to='/' activeClassName='active'>Home</NavLink>
+            <NavLink exact to='/info' activeClassName='active'>Info</NavLink>
           </div>
         </Container>
       </header>
