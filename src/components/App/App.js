@@ -6,7 +6,7 @@ import Info from '../Info/Info';
 import Faq from '../Faq/Faq';
 import MainLayout from '../MainLayout/MainLayout';
 import List from '../List/ListContainer';
-// import SearchResult from '../SearchResult/SearchResultContainer';
+import SearchResult from '../SearchResults/SearchResultContainer';
 import styles from './App.scss';
 
 const App = () => (
@@ -23,7 +23,7 @@ const App = () => (
           <Route exact path='/info' component={Info} />
           <Route exact path='/faq' component={Faq} />
           <Route exact path='/list/:id' component={List} />
-          {/* <Route exact path='/search/:id' component={SearchResult} /> */}
+          <Route exact path='/search/:id' component={SearchResult} />
         </AnimatedSwitch>
       </MainLayout>
     </BrowserRouter>
