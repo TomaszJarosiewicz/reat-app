@@ -94,6 +94,18 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
+    title: 'Things to do <sup>today!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://i.postimg.cc/13MQJ2LF/superhero-comic-4376194-1280.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>tomorrow!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://i.postimg.cc/13MQJ2LF/superhero-comic-4376194-1280.png',
+  },
+  {
+    id: 'list-3',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'https://i.postimg.cc/13MQJ2LF/superhero-comic-4376194-1280.png',
